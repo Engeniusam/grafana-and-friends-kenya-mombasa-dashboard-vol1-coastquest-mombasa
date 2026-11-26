@@ -1,0 +1,828 @@
+[
+  {
+    "id": "fort-jesus",
+    "name": "Fort Jesus Museum",
+    "shortName": "Fort Jesus",
+    "primaryCategory": "Historical Sites",
+    "categories": ["Historical Sites", "Family Friendly"],
+    "badgeLabel": "Historical Site",
+    "badgeIcon": "museum",
+    "badgeStyle": "dark",
+    "modalBadge": "UNESCO World Heritage",
+    "neighborhood": "Old Town",
+    "address": "Nkurumah Rd, Old Town",
+    "distanceKm": 2.4,
+    "distanceLabel": "2.4 km away • Old Town",
+    "weatherNote": "29°C Sea Breeze",
+    "bestTime": "Best: Early Morning or Sunset Show",
+    "priceKes": 1200,
+    "priceDisplay": "KES 1,200",
+    "priceUnit": "per adult",
+    "modalPriceUnit": "Non-Resident Entry",
+    "isFree": false,
+    "rating": 4.8,
+    "reviewsCount": 3420,
+    "reviewsLabel": "3.4k",
+    "durationLabel": "2.5 hrs",
+    "durationHours": 2.5,
+    "popularityScore": 98,
+    "coordinates": {
+      "lat": -4.0628,
+      "lng": 39.6797
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCtVRL07TlMzWHfii9YTPHAa0dY_8AhGTU3GvXGpY19yiJNmorp-WwzVOi3l06IE1vEnMDAaQsgyRs7BC6xM3jgCLJP23e2E2TyUFvDXXrXjLDuaLCPnqDu7vPFPH0w-c0R9mAOSXvHZP6hbdh7R9PRwEr6TKH3Ot2L8BI7NbwQNVpzYrsjCUA8SW0drKE-ujMzga6OhsYtLAirX6-yr1ksQxgNe0Qkrece4miXdwU",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBxxFS7Yb0BwFc55QIdM0SbwneQ-W3rWQ3cVrfkDssA8IKTWK_Yu1fFO8dKcjH-QF2gFvJgaM0NYqHJqnvm_x0EVBjXh6sI2x4TnQkwp4aXiWQ4sJaMQlw5tyuXDgsfBkuSTewWOX51YnNjmyte1BPQdwyKBiKz7Xda9WcTBJkn04gJGuWfNU7OZfD65KDlkSO34ku6ebvWbpKMt2In5ehORjxaKWCViR9N18mFApU",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCtVRL07TlMzWHfii9YTPHAa0dY_8AhGTU3GvXGpY19yiJNmorp-WwzVOi3l06IE1vEnMDAaQsgyRs7BC6xM3jgCLJP23e2E2TyUFvDXXrXjLDuaLCPnqDu7vPFPH0w-c0R9mAOSXvHZP6hbdh7R9PRwEr6TKH3Ot2L8BI7NbwQNVpzYrsjCUA8SW0drKE-ujMzga6OhsYtLAirX6-yr1ksQxgNe0Qkrece4miXdwU",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAyuKdAExqIajT3lY9qzKEuRzueOr4wI3m4Pevx3AqXlNM6H0GDrzDm4gw2XR3YxEJIAPG6nP8taAYqo15SG5VWdn1zqAJjSRRR_nwDfoXKKWrtWPOrD9GLoi6I7dYtSB3DoBNdhHLWwNrvJGxz1-QGSwO8X0lCbEljo5ozVaY3mEavkWnPPXgWCEtrs5Dby5SfLKyl2-AzyZ2H-QggDViY4N_2IlYr0107jPSDMS0"
+    ],
+    "imageAlt": "Fort Jesus Mombasa coral-rag stone ramparts and Portuguese crest overlooking the Indian Ocean",
+    "description": "Built by the Portuguese between 1593 and 1596 according to designs by Giovanni Battista Cairati, this monumental bastion guarded the Old Port of Mombasa. Wander through thick coral-rag battlements, cannons overlooking the sea passage, and an Omani audience hall displaying intricate Swahili and Islamic woodwork.",
+    "openingHours": {
+      "hours": "8:00 AM – 6:00 PM",
+      "note": "Open 7 days a week"
+    },
+    "admissionTiers": {
+      "primary": "E.A Citizens: KES 200",
+      "secondary": "Students: 50% discount"
+    },
+    "tips": [
+      "Wear breathable cotton and walking sneakers—the coral stones get hot at noon.",
+      "Official National Museums licensed guides operate right at the entrance gate (~KES 800).",
+      "Sound & Light projection show runs nightly starting at 7:30 PM with live fireworks."
+    ],
+    "nearby": [
+      {
+        "name": "Forodhani Resto",
+        "detail": "300m • Swahili Biryani",
+        "icon": "restaurant"
+      },
+      {
+        "name": "Old Dhow Port",
+        "detail": "450m • Wooden Dhows",
+        "icon": "sailing"
+      }
+    ],
+    "ctaHighlight": true
+  },
+  {
+    "id": "nyali-beach",
+    "name": "Nyali Beach",
+    "shortName": "Nyali Beach",
+    "primaryCategory": "Beaches",
+    "categories": ["Beaches", "Free Activities", "Family Friendly"],
+    "badgeLabel": "Beach",
+    "badgeIcon": "beach_access",
+    "badgeStyle": "ocean",
+    "modalBadge": "Blue Flag Coastal Stretch",
+    "neighborhood": "North Coast",
+    "address": "Links Rd / Nyali Shoreline",
+    "distanceKm": 5.1,
+    "distanceLabel": "5.1 km away • North Coast",
+    "weatherNote": "28°C Trade Winds",
+    "bestTime": "Best: Afternoon Breezes & Swimming",
+    "priceKes": 0,
+    "priceDisplay": "FREE",
+    "priceUnit": "Public Access",
+    "modalPriceUnit": "Open Beachfront",
+    "isFree": true,
+    "rating": 4.9,
+    "reviewsCount": 4120,
+    "reviewsLabel": "4.1k",
+    "durationLabel": "3–4 hrs",
+    "durationHours": 3.5,
+    "popularityScore": 96,
+    "coordinates": {
+      "lat": -4.0273,
+      "lng": 39.7185
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuArUVl2RnLzQkc9F53SAVa8IirfkvgPmt6TPq1pLpoWY8WK6DI8xOWxA0yBNfPgyaU8ffPCPQWd_Q9V7huk05GHrzukadpvLMUZvsDjbOUAmztrnGjfv_ChShsRT-FP_CyRDJKfORZfi4sQwBkwj-qyavC2NMPvqQ-JruulSNHYdQRs-OZXmqt_XPmfJvANdDO6itblgHuZsgcnAIVPz5PZUwgf65SkvNykEmSkyag",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuArUVl2RnLzQkc9F53SAVa8IirfkvgPmt6TPq1pLpoWY8WK6DI8xOWxA0yBNfPgyaU8ffPCPQWd_Q9V7huk05GHrzukadpvLMUZvsDjbOUAmztrnGjfv_ChShsRT-FP_CyRDJKfORZfi4sQwBkwj-qyavC2NMPvqQ-JruulSNHYdQRs-OZXmqt_XPmfJvANdDO6itblgHuZsgcnAIVPz5PZUwgf65SkvNykEmSkyag",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuApdjOMCpYrZJbe-30634bBzZb1YafXHirMf6dA8D7RCwRN7mMekRX5Hv5kN7gSECyHfzoG51EezGc1QwTg8faG0AeYX6_BkFAebz6mEnfA2tdTuDf4svFNx9KFFTPXk0azo1dVekDXBLWUM21B-oMJLEwJcMUGbF-Z8ua1UKaAudr2tikA8pKpgK1umFD-bG3GM76dPhIakGYaFAIM3tg9A4pPxwyQhMGm9xE-Drs"
+    ],
+    "imageAlt": "Nyali Beach Mombasa powdery white sand shoreline with calm turquoise Indian Ocean water and palm trees",
+    "description": "Just north of Mombasa Island across the Nyali Bridge lies a sweeping crescent of powdery coral sand sheltered by an offshore reef. Gentle waves make Nyali Beach ideal for morning swims, sunset camel walks, kitesurfing sessions, and unhurried afternoons beneath leaning coconut palms.",
+    "openingHours": {
+      "hours": "Open 24 Hours",
+      "note": "Lifeguards active 7:00 AM – 6:00 PM"
+    },
+    "admissionTiers": {
+      "primary": "Public Access: Free",
+      "secondary": "Sunbed & Umbrella: ~KES 500"
+    },
+    "tips": [
+      "Visit around low tide in the late afternoon for wide exposed sandbars and warm shallow tidal pools.",
+      "Public access lanes sit near Reef Hotel and Bahari Beach—bring reef shoes if exploring coral patches.",
+      "Grab chilled madafu coconut water from licensed beach vendors near the main walkway."
+    ],
+    "nearby": [
+      {
+        "name": "Char-Choma Grill",
+        "detail": "400m • Oceanfront Seafood",
+        "icon": "restaurant"
+      },
+      {
+        "name": "Nyali Cinemax Hub",
+        "detail": "1.1 km • Cafés & Shops",
+        "icon": "local_cafe"
+      }
+    ]
+  },
+  {
+    "id": "haller-park",
+    "name": "Haller Park Sanctuary",
+    "shortName": "Haller Park Sanctuary",
+    "primaryCategory": "Nature & Wildlife",
+    "categories": ["Nature & Wildlife", "Family Friendly"],
+    "badgeLabel": "Nature & Wildlife",
+    "badgeIcon": "forest",
+    "badgeStyle": "dark",
+    "modalBadge": "Eco-Rehabilitated Reserve",
+    "neighborhood": "Bamburi",
+    "address": "Malindi Rd, Bamburi",
+    "distanceKm": 8.2,
+    "distanceLabel": "8.2 km away • Bamburi",
+    "weatherNote": "27°C Shaded Canopy",
+    "bestTime": "Best: 2:00 PM Feeding Time",
+    "priceKes": 1400,
+    "priceDisplay": "KES 1,400",
+    "priceUnit": "per entry",
+    "modalPriceUnit": "Non-Resident Entry",
+    "isFree": false,
+    "rating": 4.7,
+    "reviewsCount": 2140,
+    "reviewsLabel": "2.1k",
+    "durationLabel": "3 hrs",
+    "durationHours": 3,
+    "popularityScore": 91,
+    "coordinates": {
+      "lat": -3.9975,
+      "lng": 39.7235
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA4j6kdTsMUCzF7MrtbdgTbj2oahNU1yUAAKPOlwkWaHmqJK_Efz7X2USYuha7a9BHzeK_McQlaSmBgP7J-6pbPhZ3L-Vau99EEH7XhH7dWT5VJ15tl-L4GvW2GHcyJFoqS5zYfaEFy0EirP7UYZOJEGCTdZ3ED6SUEHuZTCPr3iwF2Y9noCfgZ_gu9zHLFZoZ8cjx3J1nkkcaBb484O6i7VCHqhJ1lUoDlX-jOWLo",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuA4j6kdTsMUCzF7MrtbdgTbj2oahNU1yUAAKPOlwkWaHmqJK_Efz7X2USYuha7a9BHzeK_McQlaSmBgP7J-6pbPhZ3L-Vau99EEH7XhH7dWT5VJ15tl-L4GvW2GHcyJFoqS5zYfaEFy0EirP7UYZOJEGCTdZ3ED6SUEHuZTCPr3iwF2Y9noCfgZ_gu9zHLFZoZ8cjx3J1nkkcaBb484O6i7VCHqhJ1lUoDlX-jOWLo",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAq_W6EJEft3oPwck5ae_UrwPoKkmH3uJqLPFH5pBvyVIc_0FIjlEkTOQzuex7pn2p5tFpgfCAS0CMiWjSj2tvok-e3dqj5YG5vk42L9qE-o2TeZSLFe6yizC5R89b7QfUiBccf10TOKkhUZOOuW5S7axO1DzTGMcEYw1wTVRyEuxUzC3czt_nRgE4lJ02Cjpdoe2dn4wPXO9GVziAINqnHdhoawzEoXsHKOLhmNa8"
+    ],
+    "imageAlt": "Giant Aldabra tortoises and Rothschild giraffes inside the lush regenerated coastal forest of Haller Park Bamburi",
+    "description": "Transformed from a barren limestone quarry into a thriving coastal woodland, Haller Park shelters Rothschild giraffes, hippos, cape buffalo, vervet monkeys, and century-old Aldabra giant tortoises. Shaded nature trails wind past tilapia fish farms and palm groves.",
+    "openingHours": {
+      "hours": "8:00 AM – 5:00 PM",
+      "note": "Giraffe & Hippo feeding at 2:30 PM"
+    },
+    "admissionTiers": {
+      "primary": "Kenyan Citizens: KES 500",
+      "secondary": "Children (3–12 yrs): KES 600"
+    },
+    "tips": [
+      "Arrive by 2:00 PM to catch the giraffe feeding platform followed by the hippo and crocodile feeding circuit.",
+      "Carry insect repellent and water—walking the full forest loop takes about 2.5 to 3 hours.",
+      "Look out for Sally and Potty, the park's famous giant tortoises near the reptile enclosure."
+    ],
+    "nearby": [
+      {
+        "name": "Bamburi Nature Trail",
+        "detail": "250m • Cycling Trails",
+        "icon": "pedal_bike"
+      },
+      {
+        "name": "City Mall Nyali",
+        "detail": "1.6 km • Dining & Gelato",
+        "icon": "storefront"
+      }
+    ]
+  },
+  {
+    "id": "mombasa-marine-park",
+    "name": "Mombasa Marine Park",
+    "shortName": "Mombasa Marine Park",
+    "primaryCategory": "Water Activities",
+    "categories": ["Water Activities", "Nature & Wildlife"],
+    "badgeLabel": "Water Activities",
+    "badgeIcon": "scuba_diving",
+    "badgeStyle": "ocean",
+    "modalBadge": "Protected Coral Reef",
+    "neighborhood": "Nyali Waters",
+    "address": "KWS Marine Gate, Nyali / Bamburi",
+    "distanceKm": 6.0,
+    "distanceLabel": "6.0 km away • Nyali Waters",
+    "weatherNote": "29°C Calm Swell",
+    "bestTime": "Best: Low Tide Coral Snorkeling",
+    "priceKes": 2100,
+    "priceDisplay": "KES 2,100",
+    "priceUnit": "KWS Marine Pass",
+    "modalPriceUnit": "Conservation Pass",
+    "isFree": false,
+    "rating": 4.9,
+    "reviewsCount": 1850,
+    "reviewsLabel": "1.8k",
+    "durationLabel": "4 hrs",
+    "durationHours": 4,
+    "popularityScore": 94,
+    "coordinates": {
+      "lat": -3.995,
+      "lng": 39.744
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB1JyqxbYOsczmKo6630unLN9KvrS0ri5tThSmqSMWRd6FKKN7Y0QcuyBhJSGMUPQqXaNS9tAqIkOCM4Mfyir9XgK_pt211YW6jWR12DNCRN5p1PTni-_bImL8LhlYzDd-OgtQ1XqjfhB6dopeJv-J8hopgvOX-mSK-shKVa92Za75WGcsn6TvyyRJKvOZckz52vakfQcEhvWqjDeCEJsuu54KVGbfmVmgCUZHI858",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuB1JyqxbYOsczmKo6630unLN9KvrS0ri5tThSmqSMWRd6FKKN7Y0QcuyBhJSGMUPQqXaNS9tAqIkOCM4Mfyir9XgK_pt211YW6jWR12DNCRN5p1PTni-_bImL8LhlYzDd-OgtQ1XqjfhB6dopeJv-J8hopgvOX-mSK-shKVa92Za75WGcsn6TvyyRJKvOZckz52vakfQcEhvWqjDeCEJsuu54KVGbfmVmgCUZHI858",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuABbu3lzOZUcGCo6_N00iUAskreileOhl8I_iGfJRGzelPlEoGZUZA8iwnEHAHXQvxkYOftiF3aVjTsRFrHcde0DV6nEQJAx6Rohqqrmz5iii4x_j8vye9E7SIRcbYuOd-UXBHT72JPWQt6NiCgck7HvEkWBzd4-Kkyd3uqcdcmxqoS00ku8dazuZYwU_oxduS_XlonEtEcURhTaP-B9LdkjndJvC8VsAmfgPMQZDA"
+    ],
+    "imageAlt": "Traditional Kenyan glass-bottom boat cruising over turquoise coral reef waters of Mombasa Marine National Park",
+    "description": "Stretching from Nyali to Bamburi and Shanzu, Kenya's premier marine reserve protects vibrant staghorn coral gardens, parrotfish, angel fish, sea cucumbers, and green sea turtles. Board a traditional glass-bottom boat or snorkel directly over the crystal reef shelf.",
+    "openingHours": {
+      "hours": "7:00 AM – 6:00 PM",
+      "note": "Best visibility 9:00 AM – 1:00 PM"
+    },
+    "admissionTiers": {
+      "primary": "KWS Resident: KES 300",
+      "secondary": "Boat Charter: ~KES 2,500 split"
+    },
+    "tips": [
+      "Check Mombasa tide charts and depart during falling low tide when the lagoon is calmest and clearest.",
+      "Apply reef-safe mineral sunscreen and rent snorkeling fins directly at the KWS Nyali boat jetty.",
+      "Always verify your captain carries an official KWS Marine Park license badge."
+    ],
+    "nearby": [
+      {
+        "name": "Nyali Boat Jetty",
+        "detail": "100m • Snorkel Gear Hire",
+        "icon": "kayaking"
+      },
+      {
+        "name": "Mombasa Go-Kart",
+        "detail": "1.8 km • Family Racing",
+        "icon": "sports_motorsports"
+      }
+    ]
+  },
+  {
+    "id": "mama-ngina-waterfront",
+    "name": "Mama Ngina Waterfront",
+    "shortName": "Mama Ngina Waterfront",
+    "primaryCategory": "Family Friendly",
+    "categories": ["Family Friendly", "Food & Nightlife", "Free Activities"],
+    "badgeLabel": "Family & Street Food",
+    "badgeIcon": "family_restroom",
+    "badgeStyle": "teal",
+    "modalBadge": "Iconic Oceanfront Promenade",
+    "neighborhood": "Likoni Channel",
+    "address": "Mama Ngina Dr, Mombasa Island",
+    "distanceKm": 3.1,
+    "distanceLabel": "3.1 km away • Likoni Channel",
+    "weatherNote": "28°C Channel Breeze",
+    "bestTime": "Best: Sunset Crisps & Ocean Breeze",
+    "priceKes": 0,
+    "priceDisplay": "FREE",
+    "priceUnit": "Public Park",
+    "modalPriceUnit": "Open Promenade",
+    "isFree": true,
+    "rating": 4.6,
+    "reviewsCount": 5020,
+    "reviewsLabel": "5.0k",
+    "durationLabel": "2 hrs",
+    "durationHours": 2,
+    "popularityScore": 92,
+    "coordinates": {
+      "lat": -4.0753,
+      "lng": 39.6716
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCxx4s-fWnxVBW0VZLgPQnjOUv83Vq_vzgWXb59TtVvv9Pn6wfUndWBai9TQEZ3y-R5Rvx0miuk0dqOPpYYNZx8qra-Y-9EsqkyHUXjQTGLwQYyWv56aJfqLa4Lg-H-WkBJzL7SCD6080wz8AHFA28Tsc7FlJ4CHtX8X0qwr22gXjKl3D1R6LEjDY7j1qGfXpClFPb-VZerL7oV2v301vN5UczKq490PTw95dgAESM",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCxx4s-fWnxVBW0VZLgPQnjOUv83Vq_vzgWXb59TtVvv9Pn6wfUndWBai9TQEZ3y-R5Rvx0miuk0dqOPpYYNZx8qra-Y-9EsqkyHUXjQTGLwQYyWv56aJfqLa4Lg-H-WkBJzL7SCD6080wz8AHFA28Tsc7FlJ4CHtX8X0qwr22gXjKl3D1R6LEjDY7j1qGfXpClFPb-VZerL7oV2v301vN5UczKq490PTw95dgAESM"
+    ],
+    "imageAlt": "Mama Ngina Waterfront oceanside promenade framed by ancient baobab trees overlooking Kilindini Harbor at sunset",
+    "description": "Set along the southern tip of Mombasa Island beneath towering ancient baobab trees, this 26-acre waterfront park offers sweeping views of cargo ships entering Kilindini Harbor and ferries crossing the Likoni Channel. Come at dusk for spicy cassava crisps, madafu, and lively local family culture.",
+    "openingHours": {
+      "hours": "6:00 AM – 10:00 PM",
+      "note": "Peak evening atmosphere 4:30 PM – 8:30 PM"
+    },
+    "admissionTiers": {
+      "primary": "Pedestrian Entry: Free",
+      "secondary": "Street Snacks: KES 100 – 350"
+    },
+    "tips": [
+      "Sample freshly fried Muhogo (cassava crisps) dusted with chili-lemon salt and tamarind chutney.",
+      "Walk past the Kilindini amphitheatre toward the channel overlook to photograph ships gliding by at sunset.",
+      "Friday through Sunday evenings bring artisan kiosks, camel rides, and live coastal taarab music."
+    ],
+    "nearby": [
+      {
+        "name": "Kilindini Ferry View",
+        "detail": "350m • Harbor Overlook",
+        "icon": "directions_boat"
+      },
+      {
+        "name": "Swahili Cultural Centre",
+        "detail": "900m • Local Crafts",
+        "icon": "palette"
+      }
+    ]
+  },
+  {
+    "id": "old-town-walk",
+    "name": "Old Town Heritage Walk",
+    "shortName": "Old Town Heritage Walk",
+    "primaryCategory": "Historical Sites",
+    "categories": ["Historical Sites", "Hidden Gems"],
+    "badgeLabel": "Cultural Tour",
+    "badgeIcon": "diversity_3",
+    "badgeStyle": "dark",
+    "modalBadge": "19th Century Swahili Quarter",
+    "neighborhood": "Old Town",
+    "address": "Mbarak Hinawy Rd, Old Town",
+    "distanceKm": 2.2,
+    "distanceLabel": "2.2 km away • Old Town",
+    "weatherNote": "28°C Shaded Alleys",
+    "bestTime": "Best: Mid-morning with spice coffee",
+    "priceKes": 800,
+    "priceDisplay": "KES 800",
+    "priceUnit": "Local Guild Guide",
+    "modalPriceUnit": "Guided Walk",
+    "isFree": false,
+    "rating": 4.8,
+    "reviewsCount": 1410,
+    "reviewsLabel": "1.4k",
+    "durationLabel": "2 hrs",
+    "durationHours": 2,
+    "popularityScore": 89,
+    "coordinates": {
+      "lat": -4.0592,
+      "lng": 39.678
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCj_sgFq46xe4AjBPOFna5U48dBB5qPpRt8rW3Fo6Mt7cjjRj7QMUKGY5dsBwVU4zRbxz_uyQCniIuKGXztg_PQgDZM0mI31qEYbNzo9kKcfFVpwjByJ-xfzE192d7x57ver19dS1-JGFl_jQr_U_2DUKy8PrFUtKCYpKirLg26szjToaR8QuC9H59Ak7WAH2YbtDud92djWWEoCcZOMOjHxKJ6JXAiAAjnYx7-_5A",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCj_sgFq46xe4AjBPOFna5U48dBB5qPpRt8rW3Fo6Mt7cjjRj7QMUKGY5dsBwVU4zRbxz_uyQCniIuKGXztg_PQgDZM0mI31qEYbNzo9kKcfFVpwjByJ-xfzE192d7x57ver19dS1-JGFl_jQr_U_2DUKy8PrFUtKCYpKirLg26szjToaR8QuC9H59Ak7WAH2YbtDud92djWWEoCcZOMOjHxKJ6JXAiAAjnYx7-_5A",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAyuKdAExqIajT3lY9qzKEuRzueOr4wI3m4Pevx3AqXlNM6H0GDrzDm4gw2XR3YxEJIAPG6nP8taAYqo15SG5VWdn1zqAJjSRRR_nwDfoXKKWrtWPOrD9GLoi6I7dYtSB3DoBNdhHLWwNrvJGxz1-QGSwO8X0lCbEljo5ozVaY3mEavkWnPPXgWCEtrs5Dby5SfLKyl2-AzyZ2H-QggDViY4N_2IlYr0107jPSDMS0"
+    ],
+    "imageAlt": "Narrow historic alleyways of Mombasa Old Town with carved Swahili wooden doors and overhanging balconies",
+    "description": "Trace centuries of Arab, Portuguese, Indian, and Swahili maritime heritage through narrow winding alleyways lined with brass-studded teak doors, filigree balconies, spice shops, and historic mosques leading down to the Old Dhow Harbour.",
+    "openingHours": {
+      "hours": "8:30 AM – 5:30 PM",
+      "note": "Friday prayer pause 12:30 PM – 2:00 PM"
+    },
+    "admissionTiers": {
+      "primary": "Self-Guided Walk: Free",
+      "secondary": "Certified Local Guide: KES 800"
+    },
+    "tips": [
+      "Dress modestly (covering shoulders and knees) as a mark of respect in this active residential heritage quarter.",
+      "Pause at Jahazi Coffee House for spiced kahawa tungu served with sesame brittle (simsim).",
+      "Ask your guide to point out the 18th-century Basheikh Mosque and the former British Consulate building."
+    ],
+    "nearby": [
+      {
+        "name": "Jahazi Coffee House",
+        "detail": "120m • Swahili Kahawa",
+        "icon": "local_cafe"
+      },
+      {
+        "name": "Marikiti Spice Market",
+        "detail": "550m • Cardamom & Saffron",
+        "icon": "store"
+      }
+    ]
+  },
+  {
+    "id": "tamarind-dhow",
+    "name": "Tamarind Dhow Cruise",
+    "shortName": "Tamarind Dhow Cruise",
+    "primaryCategory": "Food & Nightlife",
+    "categories": ["Food & Nightlife", "Water Activities"],
+    "badgeLabel": "Food & Romantic",
+    "badgeIcon": "dinner_dining",
+    "badgeStyle": "ocean",
+    "modalBadge": "Signature Swahili Dining Sail",
+    "neighborhood": "Nyali Jetty",
+    "address": "Cement Silo Rd, Tudor Creek",
+    "distanceKm": 4.5,
+    "distanceLabel": "4.5 km away • Nyali Jetty",
+    "weatherNote": "26°C Creek Twilight",
+    "bestTime": "Best: Sunset 4-Course Seafood Dinner",
+    "priceKes": 6500,
+    "priceDisplay": "KES 6,500",
+    "priceUnit": "per person",
+    "modalPriceUnit": "4-Course Dinner Sail",
+    "isFree": false,
+    "rating": 4.9,
+    "reviewsCount": 890,
+    "reviewsLabel": "890",
+    "durationLabel": "3.5 hrs",
+    "durationHours": 3.5,
+    "popularityScore": 93,
+    "coordinates": {
+      "lat": -4.0411,
+      "lng": 39.6762
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDu9g1OBb56jum1GqQJNtxkSO9Q098dzrDVsxTu-xq0iiTJUJ1hMglbb0msn1PbWzjePwN3fTUMi1BFQwXtO5cKrOEdH5yOc2H32gSGji6RWURr1dzF0kWYlYeAQCscS9p324zzYxU5JzFnnZMgzBxehh2njAscXcWmlLjZ5aDyIfKz3ioyR6pflezszGn7zZiXeJJtTYEQBPMrWu2e09-bpbv7_kcAbZXKXyklYJ0",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDu9g1OBb56jum1GqQJNtxkSO9Q098dzrDVsxTu-xq0iiTJUJ1hMglbb0msn1PbWzjePwN3fTUMi1BFQwXtO5cKrOEdH5yOc2H32gSGji6RWURr1dzF0kWYlYeAQCscS9p324zzYxU5JzFnnZMgzBxehh2njAscXcWmlLjZ5aDyIfKz3ioyR6pflezszGn7zZiXeJJtTYEQBPMrWu2e09-bpbv7_kcAbZXKXyklYJ0"
+    ],
+    "imageAlt": "Traditional wooden Swahili dhow boat illuminated with warm lanterns sailing Tudor Creek at twilight",
+    "description": "Step aboard the Nawalilkher—an authentic hand-built Arabian ocean dhow—for a serene sail across Tudor Creek as Mombasa's skyline lights up. Dine under swaying lanterns on grilled mangrove crab, Swahili coconut prawns, and Kenyan fillet steak accompanied by live coastal acoustic music.",
+    "openingHours": {
+      "hours": "12:00 PM Lunch • 6:30 PM Dinner",
+      "note": "Advance reservation recommended"
+    },
+    "admissionTiers": {
+      "primary": "Dinner Cruise: KES 6,500",
+      "secondary": "Lunch Sail: KES 5,500"
+    },
+    "tips": [
+      "Request an upper-deck bow table when booking for unobstructed views of Fort Jesus along the creek.",
+      "Try the signature Dawa cocktail (vodka, lime, honey, and sugar-cane muddle) as the dhow casts off.",
+      "Bring a light linen wrap—creek breezes cool noticeably after 8:00 PM."
+    ],
+    "nearby": [
+      {
+        "name": "Tamarind Jetty Lounge",
+        "detail": "50m • Pre-Sail Drinks",
+        "icon": "local_bar"
+      },
+      {
+        "name": "EnglishPoint Marina",
+        "detail": "1.9 km • Boardwalk Views",
+        "icon": "sailing"
+      }
+    ]
+  },
+  {
+    "id": "wild-waters",
+    "name": "Wild Waters Mombasa",
+    "shortName": "Wild Waters Mombasa",
+    "primaryCategory": "Family Friendly",
+    "categories": ["Family Friendly", "Water Activities"],
+    "badgeLabel": "Family & Adventure",
+    "badgeIcon": "kayaking",
+    "badgeStyle": "teal",
+    "modalBadge": "Coastal Waterpark",
+    "neighborhood": "Nyali",
+    "address": "Links Rd, Nyali",
+    "distanceKm": 4.8,
+    "distanceLabel": "4.8 km away • Nyali",
+    "weatherNote": "30°C Sunny Lagoon",
+    "bestTime": "Best: Weekend Family Day Passes",
+    "priceKes": 1800,
+    "priceDisplay": "KES 1,800",
+    "priceUnit": "All-Day Pass",
+    "modalPriceUnit": "Unlimited Slides Pass",
+    "isFree": false,
+    "rating": 4.6,
+    "reviewsCount": 1230,
+    "reviewsLabel": "1.2k",
+    "durationLabel": "Full Day",
+    "durationHours": 5,
+    "popularityScore": 86,
+    "coordinates": {
+      "lat": -4.0218,
+      "lng": 39.7082
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDmECuIylOayZTjkC4XizKDNiwCAJ4hk2MpPrP_zWCn42ktXErPmO6JQc4XCBeWOVEbCuX4HP_2iVp_LzCJ9iuvulGiq2QGrTw7zaiU5GgsOSaYcGA544UyHUC3T2a5s_4qfyO3vP1HXOqSUnBY3mSnRC-ba1W4trtTS4xjXpF2QKmxoxggGJW8DU8xN_a5-EdE2cEwVHKYXZ9dgXcyp2wRp8BHdN2TxxKwwCzKGHU",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDmECuIylOayZTjkC4XizKDNiwCAJ4hk2MpPrP_zWCn42ktXErPmO6JQc4XCBeWOVEbCuX4HP_2iVp_LzCJ9iuvulGiq2QGrTw7zaiU5GgsOSaYcGA544UyHUC3T2a5s_4qfyO3vP1HXOqSUnBY3mSnRC-ba1W4trtTS4xjXpF2QKmxoxggGJW8DU8xN_a5-EdE2cEwVHKYXZ9dgXcyp2wRp8BHdN2TxxKwwCzKGHU"
+    ],
+    "imageAlt": "Wild Waters Mombasa tropical waterpark with colorful slides, splash zones, and palm trees",
+    "description": "East Africa's largest family waterpark brings high-speed flumes, a lazy river, rain-dance arena, and shallow toddler splash pools to Nyali. Perfect for cooling off during warm midday hours with shaded cabanas and a poolside café.",
+    "openingHours": {
+      "hours": "10:00 AM – 6:00 PM",
+      "note": "Closed Mondays (except public holidays)"
+    },
+    "admissionTiers": {
+      "primary": "Slides Pass: KES 1,800",
+      "secondary": "Non-Swimmer Entry: KES 500"
+    },
+    "tips": [
+      "Arrive right at 10:00 AM opening to ride the dual speed flumes without weekend queues.",
+      "Wear proper nylon/lycra swimwear—denim or metal zippers are not permitted on slides.",
+      "Lockers are available near the changing pavilion for ~KES 200 refundable deposit."
+    ],
+    "nearby": [
+      {
+        "name": "Mamba Village Centre",
+        "detail": "650m • Crocodile Park",
+        "icon": "pets"
+      },
+      {
+        "name": "Nyali Golf Club",
+        "detail": "1.2 km • Green Fairways",
+        "icon": "golf_course"
+      }
+    ]
+  },
+  {
+    "id": "mombasa-tusks",
+    "name": "Mombasa Tusks (Moi Avenue)",
+    "shortName": "Mombasa Tusks",
+    "primaryCategory": "Historical Sites",
+    "categories": ["Historical Sites", "Free Activities"],
+    "badgeLabel": "City Landmark",
+    "badgeIcon": "photo_camera",
+    "badgeStyle": "dark",
+    "modalBadge": "1952 Coastal Monument",
+    "neighborhood": "City Centre",
+    "address": "Moi Avenue, Mombasa Island",
+    "distanceKm": 0.9,
+    "distanceLabel": "0.9 km away • City Centre",
+    "weatherNote": "29°C Urban Breeze",
+    "bestTime": "Best: Golden Hour Photography",
+    "priceKes": 0,
+    "priceDisplay": "FREE",
+    "priceUnit": "Open Landmark",
+    "modalPriceUnit": "24/7 Street Monument",
+    "isFree": true,
+    "rating": 4.5,
+    "reviewsCount": 6200,
+    "reviewsLabel": "6.2k",
+    "durationLabel": "30 mins",
+    "durationHours": 0.5,
+    "popularityScore": 90,
+    "coordinates": {
+      "lat": -4.0602,
+      "lng": 39.6656
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAyuKdAExqIajT3lY9qzKEuRzueOr4wI3m4Pevx3AqXlNM6H0GDrzDm4gw2XR3YxEJIAPG6nP8taAYqo15SG5VWdn1zqAJjSRRR_nwDfoXKKWrtWPOrD9GLoi6I7dYtSB3DoBNdhHLWwNrvJGxz1-QGSwO8X0lCbEljo5ozVaY3mEavkWnPPXgWCEtrs5Dby5SfLKyl2-AzyZ2H-QggDViY4N_2IlYr0107jPSDMS0",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAyuKdAExqIajT3lY9qzKEuRzueOr4wI3m4Pevx3AqXlNM6H0GDrzDm4gw2XR3YxEJIAPG6nP8taAYqo15SG5VWdn1zqAJjSRRR_nwDfoXKKWrtWPOrD9GLoi6I7dYtSB3DoBNdhHLWwNrvJGxz1-QGSwO8X0lCbEljo5ozVaY3mEavkWnPPXgWCEtrs5Dby5SfLKyl2-AzyZ2H-QggDViY4N_2IlYr0107jPSDMS0"
+    ],
+    "imageAlt": "Historic Mombasa cultural gateway and Moi Avenue coastal heritage architecture",
+    "description": "Erected in 1952 to commemorate Princess Elizabeth's visit to Mombasa, the twin criss-crossing aluminium elephant tusks spanning Moi Avenue form the unmistakable gateway symbol of the city—forming an 'M' for Mombasa from every angle.",
+    "openingHours": {
+      "hours": "Open 24 Hours",
+      "note": "Illuminated nightly after 6:30 PM"
+    },
+    "admissionTiers": {
+      "primary": "Public Landmark: Free",
+      "secondary": "Tuk-Tuk from Fort Jesus: KES 150"
+    },
+    "tips": [
+      "Stand on the central pedestrian divider looking southeast around 7:30 AM for quiet traffic-free photos.",
+      "Combine this quick stop with Uhuru Gardens across the street and a walk toward Old Town.",
+      "Watch for passing tuk-tuks when framing wide-angle shots along Moi Avenue."
+    ],
+    "nearby": [
+      {
+        "name": "Uhuru Gardens",
+        "detail": "150m • Bat & Garden Park",
+        "icon": "park"
+      },
+      {
+        "name": "Blue Room Café",
+        "detail": "400m • Spiced Bhajias & Chai",
+        "icon": "restaurant"
+      }
+    ]
+  },
+  {
+    "id": "pirates-beach",
+    "name": "Jomo Kenyatta (Pirates) Beach",
+    "shortName": "Pirates Beach",
+    "primaryCategory": "Beaches",
+    "categories": ["Beaches", "Free Activities", "Food & Nightlife"],
+    "badgeLabel": "Public Beach & Grill",
+    "badgeIcon": "beach_access",
+    "badgeStyle": "ocean",
+    "modalBadge": "Vibrant Local Beachfront",
+    "neighborhood": "Bamburi",
+    "address": "Bamburi Beachfront, North Coast",
+    "distanceKm": 9.6,
+    "distanceLabel": "9.6 km away • Bamburi",
+    "weatherNote": "29°C Coastal Breeze",
+    "bestTime": "Best: Evening Swahili Street Grill & Swims",
+    "priceKes": 0,
+    "priceDisplay": "FREE",
+    "priceUnit": "Public Beach",
+    "modalPriceUnit": "Public Access",
+    "isFree": true,
+    "rating": 4.5,
+    "reviewsCount": 3840,
+    "reviewsLabel": "3.8k",
+    "durationLabel": "3 hrs",
+    "durationHours": 3,
+    "popularityScore": 87,
+    "coordinates": {
+      "lat": -3.9841,
+      "lng": 39.7388
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuApdjOMCpYrZJbe-30634bBzZb1YafXHirMf6dA8D7RCwRN7mMekRX5Hv5kN7gSECyHfzoG51EezGc1QwTg8faG0AeYX6_BkFAebz6mEnfA2tdTuDf4svFNx9KFFTPXk0azo1dVekDXBLWUM21B-oMJLEwJcMUGbF-Z8ua1UKaAudr2tikA8pKpgK1umFD-bG3GM76dPhIakGYaFAIM3tg9A4pPxwyQhMGm9xE-Drs",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuApdjOMCpYrZJbe-30634bBzZb1YafXHirMf6dA8D7RCwRN7mMekRX5Hv5kN7gSECyHfzoG51EezGc1QwTg8faG0AeYX6_BkFAebz6mEnfA2tdTuDf4svFNx9KFFTPXk0azo1dVekDXBLWUM21B-oMJLEwJcMUGbF-Z8ua1UKaAudr2tikA8pKpgK1umFD-bG3GM76dPhIakGYaFAIM3tg9A4pPxwyQhMGm9xE-Drs"
+    ],
+    "imageAlt": "Palm-fringed turquoise shore of Jomo Kenyatta Pirates Beach in Bamburi Mombasa",
+    "description": "Mombasa's liveliest public beach bursts with authentic coastal energy—families wading in warm shallows, local boat operators offering reef trips, and seaside stalls grilling fresh red snapper, mshikaki skewers, and viazi karai right beside the surf.",
+    "openingHours": {
+      "hours": "6:00 AM – 8:00 PM",
+      "note": "Busiest on Saturdays & Sundays"
+    },
+    "admissionTiers": {
+      "primary": "Beach Entry: Free",
+      "secondary": "Grilled Fish Plate: ~KES 600"
+    },
+    "tips": [
+      "Try freshly grilled whole red snapper with coconut rice at the beachfront bandas near the main entrance.",
+      "Weekdays before 11:00 AM offer peaceful swimming and easy parking.",
+      "Negotiate dhow or glass-bottom boat rides clearly upfront at the licensed KWS beach desk."
+    ],
+    "nearby": [
+      {
+        "name": "Bamburi Grill Stalls",
+        "detail": "50m • Charcoal Mshikaki",
+        "icon": "ramen_dining"
+      },
+      {
+        "name": "Haller Park",
+        "detail": "2.1 km • Wildlife Trails",
+        "icon": "forest"
+      }
+    ]
+  },
+  {
+    "id": "mamba-village",
+    "name": "Mamba Village Centre",
+    "shortName": "Mamba Village",
+    "primaryCategory": "Nature & Wildlife",
+    "categories": ["Nature & Wildlife", "Family Friendly"],
+    "badgeLabel": "Wildlife & Gardens",
+    "badgeIcon": "pets",
+    "badgeStyle": "dark",
+    "modalBadge": "East Africa's Largest Crocodile Farm",
+    "neighborhood": "Nyali",
+    "address": "Links Rd, Nyali",
+    "distanceKm": 5.4,
+    "distanceLabel": "5.4 km away • Nyali",
+    "weatherNote": "28°C Botanical Grounds",
+    "bestTime": "Best: 5:00 PM Crocodile Feeding",
+    "priceKes": 1000,
+    "priceDisplay": "KES 1,000",
+    "priceUnit": "Adult Entry",
+    "modalPriceUnit": "Guided Farm Tour",
+    "isFree": false,
+    "rating": 4.4,
+    "reviewsCount": 1680,
+    "reviewsLabel": "1.6k",
+    "durationLabel": "2 hrs",
+    "durationHours": 2,
+    "popularityScore": 82,
+    "coordinates": {
+      "lat": -4.0246,
+      "lng": 39.7042
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAq_W6EJEft3oPwck5ae_UrwPoKkmH3uJqLPFH5pBvyVIc_0FIjlEkTOQzuex7pn2p5tFpgfCAS0CMiWjSj2tvok-e3dqj5YG5vk42L9qE-o2TeZSLFe6yizC5R89b7QfUiBccf10TOKkhUZOOuW5S7axO1DzTGMcEYw1wTVRyEuxUzC3czt_nRgE4lJ02Cjpdoe2dn4wPXO9GVziAINqnHdhoawzEoXsHKOLhmNa8",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAq_W6EJEft3oPwck5ae_UrwPoKkmH3uJqLPFH5pBvyVIc_0FIjlEkTOQzuex7pn2p5tFpgfCAS0CMiWjSj2tvok-e3dqj5YG5vk42L9qE-o2TeZSLFe6yizC5R89b7QfUiBccf10TOKkhUZOOuW5S7axO1DzTGMcEYw1wTVRyEuxUzC3czt_nRgE4lJ02Cjpdoe2dn4wPXO9GVziAINqnHdhoawzEoXsHKOLhmNa8"
+    ],
+    "imageAlt": "Lush tropical wildlife sanctuary grounds at Mamba Village Nyali Mombasa",
+    "description": "Home to over 10,000 Nile crocodiles across tiered breeding pools, Mamba Village also features botanical orchid gardens, camel rides, and a lakeside restaurant overlooking Nyali's quiet interior creek.",
+    "openingHours": {
+      "hours": "8:00 AM – 6:00 PM",
+      "note": "Daily feeding demonstration at 5:00 PM"
+    },
+    "admissionTiers": {
+      "primary": "Residents: KES 400",
+      "secondary": "Children: KES 500"
+    },
+    "tips": [
+      "Time your arrival for 4:15 PM so you finish the aquarium and orchid walk right before the 5:00 PM feeding.",
+      "Kids love holding the supervised baby hatchling crocodiles with a handler.",
+      "Easy 5-minute walk from Wild Waters if pairing two Nyali family stops."
+    ],
+    "nearby": [
+      {
+        "name": "Wild Waters",
+        "detail": "650m • Waterpark Slides",
+        "icon": "kayaking"
+      },
+      {
+        "name": "Nyali Centre Mall",
+        "detail": "1.1 km • Coffee & Crafts",
+        "icon": "local_cafe"
+      }
+    ]
+  },
+  {
+    "id": "nguuni-nature-sanctuary",
+    "name": "Nguuni Nature Sanctuary",
+    "shortName": "Nguuni Sanctuary",
+    "primaryCategory": "Hidden Gems",
+    "categories": ["Hidden Gems", "Nature & Wildlife"],
+    "badgeLabel": "Hidden Gem",
+    "badgeIcon": "landscape",
+    "badgeStyle": "dark",
+    "modalBadge": "Local Sunset Picnic Reserve",
+    "neighborhood": "Kiembeni",
+    "address": "Nguu Tatu Hills, Bamburi",
+    "distanceKm": 11.5,
+    "distanceLabel": "11.5 km away • Kiembeni",
+    "weatherNote": "26°C Hilltop Sunset",
+    "bestTime": "Best: 4:30 PM Sunset Ostrich & Giraffe Walk",
+    "priceKes": 700,
+    "priceDisplay": "KES 700",
+    "priceUnit": "Conservation Fee",
+    "modalPriceUnit": "Sanctuary Entry",
+    "isFree": false,
+    "rating": 4.8,
+    "reviewsCount": 760,
+    "reviewsLabel": "760",
+    "durationLabel": "2.5 hrs",
+    "durationHours": 2.5,
+    "popularityScore": 85,
+    "coordinates": {
+      "lat": -3.9634,
+      "lng": 39.7078
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAq_W6EJEft3oPwck5ae_UrwPoKkmH3uJqLPFH5pBvyVIc_0FIjlEkTOQzuex7pn2p5tFpgfCAS0CMiWjSj2tvok-e3dqj5YG5vk42L9qE-o2TeZSLFe6yizC5R89b7QfUiBccf10TOKkhUZOOuW5S7axO1DzTGMcEYw1wTVRyEuxUzC3czt_nRgE4lJ02Cjpdoe2dn4wPXO9GVziAINqnHdhoawzEoXsHKOLhmNa8",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAq_W6EJEft3oPwck5ae_UrwPoKkmH3uJqLPFH5pBvyVIc_0FIjlEkTOQzuex7pn2p5tFpgfCAS0CMiWjSj2tvok-e3dqj5YG5vk42L9qE-o2TeZSLFe6yizC5R89b7QfUiBccf10TOKkhUZOOuW5S7axO1DzTGMcEYw1wTVRyEuxUzC3czt_nRgE4lJ02Cjpdoe2dn4wPXO9GVziAINqnHdhoawzEoXsHKOLhmNa8"
+    ],
+    "imageAlt": "Rothschild giraffes roaming open coastal savanna hills at Nguuni Nature Sanctuary near Bamburi",
+    "description": "Tucked quietly behind the Nguu Tatu hills north of Bamburi, this uncrowded savanna sanctuary lets visitors picnic beside roaming giraffes, eland, waterbuck, and ostriches as the sun sinks behind coastal baobabs.",
+    "openingHours": {
+      "hours": "9:00 AM – 6:30 PM",
+      "note": "Bring your own picnic or pre-book nyama choma"
+    },
+    "admissionTiers": {
+      "primary": "Residents: KES 500",
+      "secondary": "Picnic Gazebos: Included"
+    },
+    "tips": [
+      "Arrive around 4:30 PM—the giraffes stroll right near the wooden picnic gazebos at golden hour.",
+      "Pre-arrange a return taxi or Uber before entering as mobile signal dips near the valley gate.",
+      "Pack reusable cups and blankets; the sanctuary enforces a strict zero-plastic policy."
+    ],
+    "nearby": [
+      {
+        "name": "Nguu Tatu Overlook",
+        "detail": "800m • Sunset Ridge",
+        "icon": "terrain"
+      },
+      {
+        "name": "Bamburi Junction",
+        "detail": "4.2 km • Tuk-Tuk Hub",
+        "icon": "directions_car"
+      }
+    ]
+  },
+  {
+    "id": "forodhani-night-bites",
+    "name": "Old Port Swahili Food Crawl",
+    "shortName": "Old Port Food Crawl",
+    "primaryCategory": "Food & Nightlife",
+    "categories": ["Food & Nightlife", "Hidden Gems"],
+    "badgeLabel": "Street Food & Nightlife",
+    "badgeIcon": "ramen_dining",
+    "badgeStyle": "ocean",
+    "modalBadge": "Authentic Swahili Cuisine",
+    "neighborhood": "Old Port",
+    "address": "Mbarak Hinawy & Forodhani Alley, Old Town",
+    "distanceKm": 2.6,
+    "distanceLabel": "2.6 km away • Old Port",
+    "weatherNote": "26°C Evening Air",
+    "bestTime": "Best: 6:00 PM – 9:30 PM Charcoal Grill",
+    "priceKes": 500,
+    "priceDisplay": "KES 500",
+    "priceUnit": "Avg. Tasting Plate",
+    "modalPriceUnit": "Pay-As-You-Eat",
+    "isFree": false,
+    "rating": 4.9,
+    "reviewsCount": 2310,
+    "reviewsLabel": "2.3k",
+    "durationLabel": "2 hrs",
+    "durationHours": 2,
+    "popularityScore": 95,
+    "coordinates": {
+      "lat": -4.0609,
+      "lng": 39.6808
+    },
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQVRjWasHee3NVGcLvqEzjfK_MMWWXBsjj4My0nuVSID_EeKzIMEdIf6n09OrueiPx8d0PYP6p3EJWAeRFfGdfBO1Nx4-r_XbpVvbRd24QXgKg4zgQwPoQHRnEaOEs1hzgZpS72OwCeu3Fk3TPalJj1ty-KLBkToj037uZbagCzMHPcPUJKoZS7E5_3Rr8ZhDFqx09sZjucsBgoqCW7cR2f2y4nVj457kkJ-hIbhw",
+    "gallery": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAQVRjWasHee3NVGcLvqEzjfK_MMWWXBsjj4My0nuVSID_EeKzIMEdIf6n09OrueiPx8d0PYP6p3EJWAeRFfGdfBO1Nx4-r_XbpVvbRd24QXgKg4zgQwPoQHRnEaOEs1hzgZpS72OwCeu3Fk3TPalJj1ty-KLBkToj037uZbagCzMHPcPUJKoZS7E5_3Rr8ZhDFqx09sZjucsBgoqCW7cR2f2y4nVj457kkJ-hIbhw"
+    ],
+    "imageAlt": "Swahili street grill with spiced beef mshikaki skewers sizzling over hot charcoal embers at night in Mombasa",
+    "description": "As dusk settles over the Old Port, charcoal braziers flare to life along Old Town's coastal edge. Sample tamarind-glazed beef mshikaki skewers, crisp viazi karai potato bites, freshly pressed sugarcane juice with ginger, and warm cardamom mahamri.",
+    "openingHours": {
+      "hours": "5:30 PM – 10:30 PM",
+      "note": "Daily evening street market"
+    },
+    "admissionTiers": {
+      "primary": "Mshikaki Skewer: KES 150",
+      "secondary": "Viazi Karai & Chatni: KES 100"
+    },
+    "tips": [
+      "Carry small Kenyan Shilling notes (KES 50, 100, 200) or M-Pesa for fast street-stall ordering.",
+      "Pair your skewers with fresh passionfruit or tamarind ukwaju juice from nearby carts.",
+      "Follow the smoky scent from Fort Jesus roundabout toward the Old Port seawall."
+    ],
+    "nearby": [
+      {
+        "name": "Fort Jesus Night Show",
+        "detail": "250m • 7:30 PM Projection",
+        "icon": "museum"
+      },
+      {
+        "name": "Forodhani Waterfront",
+        "detail": "100m • Sea Wall Seating",
+        "icon": "deck"
+      }
+    ]
+  }
+]

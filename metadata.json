@@ -1,0 +1,8 @@
+{
+  "name": "CoastQuest Mombasa",
+  "description": "Discover Mombasa beaches, heritage sites, Swahili cuisine, wildlife sanctuaries, and curated coastal experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

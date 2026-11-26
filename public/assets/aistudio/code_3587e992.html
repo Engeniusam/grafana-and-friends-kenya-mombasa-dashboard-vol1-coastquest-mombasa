@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary": "#ffffff", "outline": "#76777d", "on-error-container": "#93000a", "on-tertiary-container": "#009485", "on-primary-fixed-variant": "#3f465c", "on-surface": "#191c1e", "on-background": "#191c1e", "secondary": "#006591", "surface-tint": "#565e74", "secondary-container": "#39b8fd", "on-surface-variant": "#45464d", "tertiary": "#000000", "on-secondary-container": "#004666", "on-primary": "#ffffff", "surface-container-low": "#f2f4f6", "outline-variant": "#c6c6cd", "error": "#ba1a1a", "on-secondary-fixed-variant": "#004c6e", "surface-variant": "#e0e3e5", "primary-container": "#131b2e", "surface-container": "#eceef0", "surface": "#f7f9fb", "surface-container-lowest": "#ffffff", "tertiary-fixed-dim": "#4fdbc8", "on-tertiary-fixed-variant": "#005048", "inverse-primary": "#bec6e0", "inverse-surface": "#2d3133", "secondary-fixed-dim": "#89ceff", "on-secondary-fixed": "#001e2f", "tertiary-fixed": "#71f8e4", "surface-dim": "#d8dadc", "background": "#f7f9fb", "on-primary-container": "#7c839b", "inverse-on-surface": "#eff1f3", "surface-container-high": "#e6e8ea", "primary-fixed-dim": "#bec6e0", "surface-container-highest": "#e0e3e5", "primary-fixed": "#dae2fd", "primary": "#000000", "on-primary-fixed": "#131b2e", "on-secondary": "#ffffff", "on-tertiary-fixed": "#00201c", "error-container": "#ffdad6", "on-error": "#ffffff", "tertiary-container": "#00201c", "surface-bright": "#f7f9fb", "secondary-fixed": "#c9e6ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-sm": "1rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "gutter": "1.5rem", "margin-mobile": "1rem", "space-md": "1rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "margin": "2rem" }, "fontFamily": { "label-md": ["Plus Jakarta Sans"], "display": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "display-mobile": ["Plus Jakarta Sans"] }, "fontSize": { "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.03em", "fontWeight": "600"}], "display": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800"}], "body-sm": ["13px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400"}], "label-sm": ["10px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}], "headline-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}], "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "headline-md": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "600"}], "body-md": ["15px", {"lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400"}], "body-lg": ["18px", {"lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400"}], "display-mobile": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800"}] } } } };</script><style>@layer base { html, body { width: 100%; margin: 0; padding: 0; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } .no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 pt-safe bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-28 flex flex-col justify-between px-margin-mobile py-space-xs"><div class="flex items-center justify-between gap-space-xs h-12"><div class="flex items-center gap-space-xs flex-shrink-0"><img alt="CoastQuest Mombasa Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrC4DgtranJuqmN4RlTLHtUw_Q-yFMeyUPhxD8vGdilnI7uT7ah5XmmeSItWwd4XAi7AYnQqxBqFzVjqFkZEzeD7HiSmjd6DHEgOcr4j6On4JpLB1pDtfDr_8RI_6gOtzm2UTOJeC0f6cueQEQlaPemXxscwWXds6c7ztKwfvVvIe_G1xcE2QYiQZW4bP9kNiSKkVVpdiIHMGit8PMFljKBE9Bd7XON-jdPXpByIsAXX"/><span class="hidden font-headline-sm text-headline-sm text-primary tracking-tight">CoastQuest</span></div><div class="flex-1 mx-space-xs"><div class="relative flex items-center w-full h-11 rounded-xl bg-surface-container-low px-space-sm"><span class="material-symbols-outlined text-outline text-[18px] mr-space-xs">search</span><span class="font-body-sm text-body-sm text-outline truncate select-none">Search attractions, beaches...</span><span class="sr-only">Discover</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Saved items" class="relative w-11 h-11 flex items-center justify-center rounded-xl bg-surface-container-low text-on-surface hover:bg-surface-container"><span class="material-symbols-outlined text-[20px] text-secondary">favorite</span><span class="absolute top-1.5 right-1.5 min-w-[16px] h-4 px-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm flex items-center justify-center leading-none">4</span></button><button aria-label="User account" class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcgwaoixwdEQkrJa60v_YzJqPoRo3hIKfzCjfirGEVdp2BFzqs3mY7PeT4_j4GcRm8qfFJaxdY6fPhH0XF5E9ABg3MtbZuPxNnq-dcIvHlhY3scU4LZxPkDDj8D3IfQlOrKGsW9ngKZn_Oyh2YndWDcdQ1UQAy3HSkPYCimN6mB6hAEW_pjI-GwsPt5HuzxRWSuJl6FkVLuNYFYXh-FDFOQPZPh-YG-e_ran1SExY"/></button></div></div><div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-space-xs px-space-xs -mx-space-xs"><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm">All</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Beaches</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Historical Sites</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Food &amp; Nightlife</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Nature &amp; Wildlife</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Water Activities</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Family Friendly</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Hidden Gems</button><button class="flex-shrink-0 px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high">Free Activities</button></div></div></header><main class="flex-1 flex flex-col relative w-full pt-28 pb-24 bg-surface"><div class="flex flex-col w-full relative">
+<!-- Interactive Modals Container -->
+<div class="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-margin-mobile bg-primary-container/60 backdrop-blur-md transition-opacity duration-300" id="fort-jesus-modal">
+<div class="relative w-full max-w-lg bg-surface-container-lowest rounded-t-[2rem] sm:rounded-3xl shadow-2xl max-h-[777px] flex flex-col overflow-hidden animate-in slide-in-from-bottom duration-300">
+<!-- Modal Header Bar with Image Carousel Preview -->
+<div class="relative w-full h-56 flex-shrink-0 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="High-resolution coastal drone photography of Fort Jesus in Mombasa, showing ancient coral-rag stone battlements facing the azure Indian Ocean. Sun-drenched warm amber light, lush tropical palm trees bordering the ramparts, calm turquoise water with traditional wooden Swahili dhow boats sailing past." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBxxFS7Yb0BwFc55QIdM0SbwneQ-W3rWQ3cVrfkDssA8IKTWK_Yu1fFO8dKcjH-QF2gFvJgaM0NYqHJqnvm_x0EVBjXh6sI2x4TnQkwp4aXiWQ4sJaMQlw5tyuXDgsfBkuSTewWOX51YnNjmyte1BPQdwyKBiKz7Xda9WcTBJkn04gJGuWfNU7OZfD65KDlkSO34ku6ebvWbpKMt2In5ehORjxaKWCViR9N18mFApU')">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-primary-container/20 to-transparent"></div>
+</div>
+<!-- Floating Controls -->
+<button aria-label="Close attraction details" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface shadow-md hover:bg-surface-container-lowest active:scale-95 transition-all" id="close-modal-btn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<div class="absolute top-4 left-4 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">UNESCO World Heritage</span>
+</div>
+<!-- Carousel Dots -->
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5">
+<span class="w-5 h-1.5 rounded-full bg-surface-container-lowest"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-lowest/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-lowest/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-lowest/60"></span>
+</div>
+<div class="absolute bottom-3 left-4 right-16 flex items-baseline justify-between text-on-primary">
+<div class="flex items-center gap-1 text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md">4.8</span>
+<span class="font-body-sm text-body-sm text-surface-container-high">(3,420 reviews)</span>
+</div>
+</div>
+</div>
+<!-- Scrollable Modal Content -->
+<div class="flex-1 overflow-y-auto px-5 pt-4 pb-6 space-y-5 no-scrollbar">
+<!-- Title & Location Head -->
+<div class="space-y-1">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md text-on-surface">Fort Jesus Museum</h2>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">KES 1,200</span>
+<p class="font-label-sm text-label-sm text-outline">Non-Resident Entry</p>
+</div>
+</div>
+<div class="flex items-center gap-2 text-outline font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>
+<span>Nkurumah Rd, Old Town • 2.4 km away</span>
+<span>•</span>
+<span class="flex items-center text-on-tertiary-container gap-0.5">
+<span class="material-symbols-outlined text-[15px]">wb_sunny</span> 29°C Sea Breeze
+            </span>
+</div>
+</div>
+<!-- Description -->
+<div class="p-4 rounded-xl bg-surface-container-low text-on-surface-variant font-body-md text-body-md space-y-2">
+<p>
+            Built by the Portuguese between 1593 and 1596 according to designs by Giovanni Battista Cairati, this monumental bastion guarded the Old Port of Mombasa. Wander through thick coral-rag battlements, cannons overlooking the sea passage, and an Omani audience hall displaying intricate Swahili and Islamic woodwork.
+          </p>
+</div>
+<!-- Practical Information Grid -->
+<div class="grid grid-cols-2 gap-3">
+<div class="p-3.5 rounded-xl bg-surface-container space-y-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+<span class="font-label-md text-label-md">Opening Hours</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-semibold">8:00 AM – 6:00 PM</p>
+<p class="font-label-sm text-label-sm text-outline">Open 7 days a week</p>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container space-y-1">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+<span class="font-label-md text-label-md">Admission Tiers</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-semibold">E.A Citizens: KES 200</p>
+<p class="font-label-sm text-label-sm text-outline">Students: 50% discount</p>
+</div>
+</div>
+<!-- Curated Local Travel Tips -->
+<div class="p-4 rounded-xl bg-secondary-fixed/30 space-y-2.5">
+<div class="flex items-center gap-2 text-on-secondary-container">
+<span class="material-symbols-outlined text-[18px]">lightbulb</span>
+<span class="font-label-md text-label-md">Curated Travel Tips</span>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary mt-0.5">check_circle</span>
+<span>Wear breathable cotton and walking sneakers—the coral stones get hot at noon.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary mt-0.5">check_circle</span>
+<span>Official National Museums licensed guides operate right at the entrance gate (~KES 800).</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary mt-0.5">check_circle</span>
+<span>Sound &amp; Light projection show runs nightly starting at 7:30 PM with live fireworks.</span>
+</li>
+</ul>
+</div>
+<!-- Nearby Recommendations -->
+<div class="space-y-2">
+<span class="font-label-lg text-label-lg text-on-surface">Within 5 Minutes Walk</span>
+<div class="grid grid-cols-2 gap-2.5">
+<div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-surface-container-low">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">restaurant</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Forodhani Resto</p>
+<p class="font-label-sm text-label-sm text-outline">300m • Swahili Biryani</p>
+</div>
+</div>
+<div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-surface-container-low">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">sailing</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Old Dhow Port</p>
+<p class="font-label-sm text-label-sm text-outline">450m • Wooden Dhows</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sticky Modal Action Footer -->
+<div class="p-4 bg-surface-container-lowest shadow-[0_-4px_16px_rgba(0,0,0,0.06)] flex items-center gap-3">
+<button class="flex-1 h-12 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 active:scale-[0.98] transition-transform">
+<span class="material-symbols-outlined text-[18px]">near_me</span>
+<span>Get Directions</span>
+</button>
+<button class="h-12 px-5 rounded-xl bg-secondary text-on-secondary font-label-lg text-label-lg flex items-center justify-center gap-1.5 shadow-md active:scale-[0.98] transition-transform">
+<span class="material-symbols-outlined text-[20px]">add</span>
+<span>Add to Itinerary</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Hero Section -->
+<section class="px-margin-mobile pt-space-xs pb-space-md">
+<div class="relative w-full rounded-2xl overflow-hidden bg-gradient-to-br from-primary-container via-secondary to-primary-container p-6 text-on-primary shadow-xl">
+<!-- Decorative Backdrop Imagery / Shapes -->
+<div class="absolute -right-8 -top-8 w-48 h-48 rounded-full bg-secondary-container/20 blur-2xl pointer-events-none"></div>
+<div class="absolute right-3 bottom-2 opacity-15 pointer-events-none">
+<span class="material-symbols-outlined text-[110px]">waves</span>
+</div>
+<div class="relative z-10 space-y-4">
+<!-- Trust badge -->
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/15 backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px] text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-sm text-label-sm text-on-primary tracking-wide">120+ Verified Spots • 4.9★ Visitor Trust</span>
+</div>
+<!-- Headline & Subheading -->
+<div class="space-y-1.5">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-extrabold tracking-tight text-on-primary">
+            Not Sure Where to Start in Mombasa?
+          </h1>
+<p class="font-body-md text-body-md text-surface-container-high leading-relaxed max-w-sm">
+            Discover beaches, culture, food, wildlife, and unforgettable experiences tailored to your interests.
+          </p>
+</div>
+<!-- Dual CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 pt-1">
+<button class="h-12 px-5 rounded-xl bg-surface-container-lowest text-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md hover:bg-surface-container active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[18px] text-secondary">auto_awesome</span>
+<span>Explore Recommendations</span>
+</button>
+<button class="h-12 px-5 rounded-xl bg-surface-container-lowest/15 backdrop-blur-md text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 hover:bg-surface-container-lowest/25 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[18px]">explore</span>
+<span>Build My Itinerary</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Category Story Carousel -->
+<section class="py-space-xs">
+<div class="px-margin-mobile flex items-center justify-between mb-3">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">travel_explore</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Curated Collections</h2>
+</div>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Swipe</span>
+</div>
+<div class="flex items-center gap-3.5 overflow-x-auto no-scrollbar px-margin-mobile pb-2">
+<!-- Fort Jesus & Old Town Heritage -->
+<button class="flex flex-col items-center gap-2 flex-shrink-0 group">
+<div class="relative w-18 h-18 p-1 rounded-full bg-gradient-to-tr from-secondary to-tertiary-fixed shadow-md group-hover:scale-105 transition-transform">
+<div class="w-16 h-16 rounded-full bg-cover bg-center" data-alt="Close-up shot of historic carved Swahili wooden door in Mombasa Old Town, weathered brass studs, warm textured coral stone facade under midday sunshine." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAyuKdAExqIajT3lY9qzKEuRzueOr4wI3m4Pevx3AqXlNM6H0GDrzDm4gw2XR3YxEJIAPG6nP8taAYqo15SG5VWdn1zqAJjSRRR_nwDfoXKKWrtWPOrD9GLoi6I7dYtSB3DoBNdhHLWwNrvJGxz1-QGSwO8X0lCbEljo5ozVaY3mEavkWnPPXgWCEtrs5Dby5SfLKyl2-AzyZ2H-QggDViY4N_2IlYr0107jPSDMS0')"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center max-w-[76px] leading-tight">Old Town &amp; Fort</span>
+</button>
+<!-- Diani & Nyali Beaches -->
+<button class="flex flex-col items-center gap-2 flex-shrink-0 group">
+<div class="relative w-18 h-18 p-1 rounded-full bg-surface-container-high group-hover:scale-105 transition-transform">
+<div class="w-16 h-16 rounded-full bg-cover bg-center" data-alt="Pristine white sand beach of Nyali Mombasa, turquoise crystal water lapping on sand, leaning coconut palm trees casting long shadows under blue tropical sky." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuApdjOMCpYrZJbe-30634bBzZb1YafXHirMf6dA8D7RCwRN7mMekRX5Hv5kN7gSECyHfzoG51EezGc1QwTg8faG0AeYX6_BkFAebz6mEnfA2tdTuDf4svFNx9KFFTPXk0azo1dVekDXBLWUM21B-oMJLEwJcMUGbF-Z8ua1UKaAudr2tikA8pKpgK1umFD-bG3GM76dPhIakGYaFAIM3tg9A4pPxwyQhMGm9xE-Drs')"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center max-w-[76px] leading-tight">Diani &amp; Nyali</span>
+</button>
+<!-- Swahili Seafood & Nightlife -->
+<button class="flex flex-col items-center gap-2 flex-shrink-0 group">
+<div class="relative w-18 h-18 p-1 rounded-full bg-surface-container-high group-hover:scale-105 transition-transform">
+<div class="w-16 h-16 rounded-full bg-cover bg-center" data-alt="Authentic Mombasa Swahili street grill with succulent spiced beef mshikaki skewers smoking over glowing hot charcoal embers at night, warm yellow street ambiance." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQVRjWasHee3NVGcLvqEzjfK_MMWWXBsjj4My0nuVSID_EeKzIMEdIf6n09OrueiPx8d0PYP6p3EJWAeRFfGdfBO1Nx4-r_XbpVvbRd24QXgKg4zgQwPoQHRnEaOEs1hzgZpS72OwCeu3Fk3TPalJj1ty-KLBkToj037uZbagCzMHPcPUJKoZS7E5_3Rr8ZhDFqx09sZjucsBgoqCW7cR2f2y4nVj457kkJ-hIbhw')"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center max-w-[76px] leading-tight">Food &amp; Nights</span>
+</button>
+<!-- Marine Park & Watersports -->
+<button class="flex flex-col items-center gap-2 flex-shrink-0 group">
+<div class="relative w-18 h-18 p-1 rounded-full bg-surface-container-high group-hover:scale-105 transition-transform">
+<div class="w-16 h-16 rounded-full bg-cover bg-center" data-alt="Underwater crystal clear shot of Mombasa Marine National Park coral reef with colorful clownfish, sea turtles, and sun rays piercing translucent ocean water." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuABbu3lzOZUcGCo6_N00iUAskreileOhl8I_iGfJRGzelPlEoGZUZA8iwnEHAHXQvxkYOftiF3aVjTsRFrHcde0DV6nEQJAx6Rohqqrmz5iii4x_j8vye9E7SIRcbYuOd-UXBHT72JPWQt6NiCgck7HvEkWBzd4-Kkyd3uqcdcmxqoS00ku8dazuZYwU_oxduS_XlonEtEcURhTaP-B9LdkjndJvC8VsAmfgPMQZDA')"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center max-w-[76px] leading-tight">Marine Parks</span>
+</button>
+<!-- Haller Park Wildlife -->
+<button class="flex flex-col items-center gap-2 flex-shrink-0 group">
+<div class="relative w-18 h-18 p-1 rounded-full bg-surface-container-high group-hover:scale-105 transition-transform">
+<div class="w-16 h-16 rounded-full bg-cover bg-center" data-alt="Tall graceful Rothschild giraffe bending its neck down to feed from tourist hand at Haller Park Bamburi Mombasa, lush green tropical canopy background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAq_W6EJEft3oPwck5ae_UrwPoKkmH3uJqLPFH5pBvyVIc_0FIjlEkTOQzuex7pn2p5tFpgfCAS0CMiWjSj2tvok-e3dqj5YG5vk42L9qE-o2TeZSLFe6yizC5R89b7QfUiBccf10TOKkhUZOOuW5S7axO1DzTGMcEYw1wTVRyEuxUzC3czt_nRgE4lJ02Cjpdoe2dn4wPXO9GVziAINqnHdhoawzEoXsHKOLhmNa8')"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center max-w-[76px] leading-tight">Haller Wildlife</span>
+</button>
+</div>
+</section>
+<!-- Swahili Street Food & Nightlife Highlight Tape -->
+<section class="px-margin-mobile py-space-sm">
+<div class="p-4 rounded-2xl bg-surface-container-low shadow-sm space-y-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">ramen_dining</span>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Old Port Street Delights</h3>
+<p class="font-label-sm text-label-sm text-outline">Evening food crawl staples</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">Must Try</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="flex items-center gap-2 p-2 rounded-xl bg-surface-container-lowest">
+<span class="text-xl">🍢</span>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Mshikaki Skewers</p>
+<p class="font-label-sm text-label-sm text-outline">From KES 150</p>
+</div>
+</div>
+<div class="flex items-center gap-2 p-2 rounded-xl bg-surface-container-lowest">
+<span class="text-xl">🥔</span>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Viazi Karai &amp; Chatni</p>
+<p class="font-label-sm text-label-sm text-outline">From KES 100</p>
+</div>
+</div>
+<div class="flex items-center gap-2 p-2 rounded-xl bg-surface-container-lowest">
+<span class="text-xl">🥥</span>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Mahamri &amp; Chai</p>
+<p class="font-label-sm text-label-sm text-outline">Fresh Coconut Bake</p>
+</div>
+</div>
+<div class="flex items-center gap-2 p-2 rounded-xl bg-surface-container-lowest">
+<span class="text-xl">🌴</span>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Fresh Madafu</p>
+<p class="font-label-sm text-label-sm text-outline">Cold Coconut Water</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Attractions Grid -->
+<section class="px-margin-mobile py-space-sm space-y-4">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Top Coastal Spots</h2>
+<p class="font-body-sm text-body-sm text-outline">Ranked by real visitor verification &amp; proximity</p>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container text-secondary font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container-high">
+<span>Sort: Popular</span>
+<span class="material-symbols-outlined text-[16px]">tune</span>
+</button>
+</div>
+<!-- Cards List -->
+<div class="space-y-4">
+<!-- Card 1: Fort Jesus -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Fort Jesus Mombasa stone entrance with Portuguese crest carving, tropical sun lighting the coral stone structure, green palms on side." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCtVRL07TlMzWHfii9YTPHAa0dY_8AhGTU3GvXGpY19yiJNmorp-WwzVOi3l06IE1vEnMDAaQsgyRs7BC6xM3jgCLJP23e2E2TyUFvDXXrXjLDuaLCPnqDu7vPFPH0w-c0R9mAOSXvHZP6hbdh7R9PRwEr6TKH3Ot2L8BI7NbwQNVpzYrsjCUA8SW0drKE-ujMzga6OhsYtLAirX6-yr1ksQxgNe0Qkrece4miXdwU')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-container/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">museum</span>
+<span>Historical Site</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>2.4 km away • Old Town</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Fort Jesus</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: Early Morning or Sunset Show</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">KES 1,200</span>
+<p class="font-label-sm text-label-sm text-outline">per adult</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.8</span>
+<span class="font-label-sm text-label-sm text-outline">(3.4k)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> 2.5 hrs
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 2: Nyali Beach -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Nyali Beach Mombasa shoreline with calm turquoise water, white powdery sand, local Swahili camels walking along the beach shore during golden hour." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuArUVl2RnLzQkc9F53SAVa8IirfkvgPmt6TPq1pLpoWY8WK6DI8xOWxA0yBNfPgyaU8ffPCPQWd_Q9V7huk05GHrzukadpvLMUZvsDjbOUAmztrnGjfv_ChShsRT-FP_CyRDJKfORZfi4sQwBkwj-qyavC2NMPvqQ-JruulSNHYdQRs-OZXmqt_XPmfJvANdDO6itblgHuZsgcnAIVPz5PZUwgf65SkvNykEmSkyag')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">beach_access</span>
+<span>Beach</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>5.1 km away • North Coast</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Nyali Beach</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: Afternoon Breezes &amp; Swimming</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-tertiary-container font-bold">FREE</span>
+<p class="font-label-sm text-label-sm text-outline">Public Access</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.9</span>
+<span class="font-label-sm text-label-sm text-outline">(4.1k)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> 3–4 hrs
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 3: Haller Park Wildlife Sanctuary -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Giant Aldabra tortoises resting under lush coastal mangrove forest shade at Haller Park Bamburi Mombasa, rich green forest textures." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA4j6kdTsMUCzF7MrtbdgTbj2oahNU1yUAAKPOlwkWaHmqJK_Efz7X2USYuha7a9BHzeK_McQlaSmBgP7J-6pbPhZ3L-Vau99EEH7XhH7dWT5VJ15tl-L4GvW2GHcyJFoqS5zYfaEFy0EirP7UYZOJEGCTdZ3ED6SUEHuZTCPr3iwF2Y9noCfgZ_gu9zHLFZoZ8cjx3J1nkkcaBb484O6i7VCHqhJ1lUoDlX-jOWLo')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-container/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">forest</span>
+<span>Nature &amp; Wildlife</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>8.2 km away • Bamburi</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Haller Park Sanctuary</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: 2:00 PM Feeding Time</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">KES 1,400</span>
+<p class="font-label-sm text-label-sm text-outline">per entry</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.7</span>
+<span class="font-label-sm text-label-sm text-outline">(2.1k)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> 3 hrs
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 4: Mombasa Marine National Park -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Traditional Kenyan glass-bottom boat cruising over deep cobalt and turquoise waters of Mombasa Marine Park, snorkelers in tropical clear sea." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1JyqxbYOsczmKo6630unLN9KvrS0ri5tThSmqSMWRd6FKKN7Y0QcuyBhJSGMUPQqXaNS9tAqIkOCM4Mfyir9XgK_pt211YW6jWR12DNCRN5p1PTni-_bImL8LhlYzDd-OgtQ1XqjfhB6dopeJv-J8hopgvOX-mSK-shKVa92Za75WGcsn6TvyyRJKvOZckz52vakfQcEhvWqjDeCEJsuu54KVGbfmVmgCUZHI858')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">scuba_diving</span>
+<span>Water Activities</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>6.0 km away • Nyali Waters</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Mombasa Marine Park</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: Low Tide Coral Snorkeling</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">KES 2,100</span>
+<p class="font-label-sm text-label-sm text-outline">KWS Marine Pass</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.9</span>
+<span class="font-label-sm text-label-sm text-outline">(1.8k)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> 4 hrs
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 5: Mama Ngina Waterfront -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Paved oceanside promenade at Mama Ngina Waterfront Mombasa with families walking, majestic ancient baobab trees, views of ships entering Kilindini Harbor at sunset." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCxx4s-fWnxVBW0VZLgPQnjOUv83Vq_vzgWXb59TtVvv9Pn6wfUndWBai9TQEZ3y-R5Rvx0miuk0dqOPpYYNZx8qra-Y-9EsqkyHUXjQTGLwQYyWv56aJfqLa4Lg-H-WkBJzL7SCD6080wz8AHFA28Tsc7FlJ4CHtX8X0qwr22gXjKl3D1R6LEjDY7j1qGfXpClFPb-VZerL7oV2v301vN5UczKq490PTw95dgAESM')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">family_restroom</span>
+<span>Family &amp; Street Food</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>3.1 km away • Likoni Channel</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Mama Ngina Waterfront</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: Sunset Crisps &amp; Ocean Breeze</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-tertiary-container font-bold">FREE</span>
+<p class="font-label-sm text-label-sm text-outline">Public Park</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.6</span>
+<span class="font-label-sm text-label-sm text-outline">(5.0k)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> 2 hrs
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 6: Old Town Heritage Walk -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Narrow historic alleyways of Mombasa Old Town with ornate wooden balconies, warm cream colored plaster walls, Swahili archways and peaceful coastal shadows." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCj_sgFq46xe4AjBPOFna5U48dBB5qPpRt8rW3Fo6Mt7cjjRj7QMUKGY5dsBwVU4zRbxz_uyQCniIuKGXztg_PQgDZM0mI31qEYbNzo9kKcfFVpwjByJ-xfzE192d7x57ver19dS1-JGFl_jQr_U_2DUKy8PrFUtKCYpKirLg26szjToaR8QuC9H59Ak7WAH2YbtDud92djWWEoCcZOMOjHxKJ6JXAiAAjnYx7-_5A')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-container/85 backdrop-blur-md text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed">diversity_3</span>
+<span>Cultural Tour</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>2.2 km away • Old Town</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Old Town Heritage Walk</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: Mid-morning with spice coffee</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">KES 800</span>
+<p class="font-label-sm text-label-sm text-outline">Local Guild Guide</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.8</span>
+<span class="font-label-sm text-label-sm text-outline">(1.4k)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> 2 hrs
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 7: Tamarind Dhow Dining Cruise -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Traditional wooden Swahili dhow boat sailing on Tudor Creek Mombasa during twilight, lantern lighting glowing warmly on deck tables, romantic dining atmosphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDu9g1OBb56jum1GqQJNtxkSO9Q098dzrDVsxTu-xq0iiTJUJ1hMglbb0msn1PbWzjePwN3fTUMi1BFQwXtO5cKrOEdH5yOc2H32gSGji6RWURr1dzF0kWYlYeAQCscS9p324zzYxU5JzFnnZMgzBxehh2njAscXcWmlLjZ5aDyIfKz3ioyR6pflezszGn7zZiXeJJtTYEQBPMrWu2e09-bpbv7_kcAbZXKXyklYJ0')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">dinner_dining</span>
+<span>Food &amp; Romantic</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>4.5 km away • Nyali Jetty</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Tamarind Dhow Cruise</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: Sunset 4-Course Seafood Dinner</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">KES 6,500</span>
+<p class="font-label-sm text-label-sm text-outline">per person</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.9</span>
+<span class="font-label-sm text-label-sm text-outline">(890)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> 3.5 hrs
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 8: Wild Waters Theme Park -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md transition-shadow hover:shadow-lg">
+<div class="relative w-full h-44 bg-surface-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="Vibrant tropical waterpark in Mombasa with winding colorful water slides, giant wave pool, splash buckets, and coconut trees under bright Kenyan sunshine." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDmECuIylOayZTjkC4XizKDNiwCAJ4hk2MpPrP_zWCn42ktXErPmO6JQc4XCBeWOVEbCuX4HP_2iVp_LzCJ9iuvulGiq2QGrTw7zaiU5GgsOSaYcGA544UyHUC3T2a5s_4qfyO3vP1HXOqSUnBY3mSnRC-ba1W4trtTS4xjXpF2QKmxoxggGJW8DU8xN_a5-EdE2cEwVHKYXZ9dgXcyp2wRp8BHdN2TxxKwwCzKGHU')"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">kayaking</span>
+<span>Family &amp; Adventure</span>
+</div>
+<button aria-label="Bookmark attraction" class="bookmark-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<div class="absolute bottom-2.5 left-3 flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">near_me</span>
+<span>4.8 km away • Nyali</span>
+</div>
+</div>
+<div class="p-4 space-y-3">
+<div class="flex items-start justify-between gap-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Wild Waters Mombasa</h3>
+<p class="font-body-sm text-body-sm text-outline">Best: Weekend Family Day Passes</p>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">KES 1,800</span>
+<p class="font-label-sm text-label-sm text-outline">All-Day Pass</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface">4.6</span>
+<span class="font-label-sm text-label-sm text-outline">(1.2k)</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> Full Day
+              </span>
+</div>
+<button class="open-modal-trigger px-4 py-2 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant active:scale-95 transition-transform">
+<span>View Details</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Observability Heartbeat Bar (Grafana Faro telemetry accent) -->
+<aside class="px-margin-mobile pt-2 pb-6">
+<div class="flex items-center justify-between px-3.5 py-2 rounded-xl bg-surface-container text-on-surface-variant shadow-sm">
+<div class="flex items-center gap-2">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-on-tertiary-container opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-on-tertiary-container"></span>
+</span>
+<span class="font-label-sm text-label-sm">Faro RUM: Active</span>
+</div>
+<div class="flex items-center gap-3 font-label-sm text-label-sm text-outline font-mono">
+<span>TTFB 142ms</span>
+<span>•</span>
+<span>LCP 0.82s</span>
+<span>•</span>
+<span>4.0435° S</span>
+</div>
+</div>
+</aside>
+<!-- Interactive JavaScript -->
+<script>
+    (() => {
+      // Modal Logic
+      const modal = document.getElementById('fort-jesus-modal');
+      const closeBtn = document.getElementById('close-modal-btn');
+      const openTriggers = document.querySelectorAll('.open-modal-trigger');
+
+      const closeModal = () => {
+        if (!modal) return;
+        modal.classList.add('opacity-0', 'pointer-events-none');
+        setTimeout(() => {
+          modal.style.display = 'none';
+        }, 200);
+      };
+
+      const openModal = () => {
+        if (!modal) return;
+        modal.style.display = 'flex';
+        modal.classList.remove('opacity-0', 'pointer-events-none');
+      };
+
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      openTriggers.forEach(btn => btn.addEventListener('click', openModal));
+
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) closeModal();
+        });
+      }
+
+      // Wishlist / Bookmark button toggle
+      const bookmarkBtns = document.querySelectorAll('.bookmark-btn');
+      bookmarkBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const icon = btn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            const isFilled = icon.getAttribute('data-active') === 'true';
+            if (isFilled) {
+              icon.textContent = 'bookmark_border';
+              icon.style.fontVariationSettings = "'FILL' 0";
+              icon.classList.remove('text-secondary');
+              icon.removeAttribute('data-active');
+            } else {
+              icon.textContent = 'bookmark';
+              icon.style.fontVariationSettings = "'FILL' 1";
+              icon.classList.add('text-secondary');
+              icon.setAttribute('data-active', 'true');
+            }
+          }
+        });
+      });
+    })();
+  </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="text-secondary font-label-md"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] transition-colors text-secondary font-label-md" data-path="discover" href="#"><div class="relative flex flex-col items-center"><span class="material-symbols-outlined text-[22px]">explore</span><span class="absolute -top-0.5 right-0 w-1.5 h-1.5 bg-secondary rounded-full"></span></div><span class="font-label-sm text-label-sm mt-0.5">Discover</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="planner" href="#"><span class="material-symbols-outlined text-[22px]">auto_awesome</span><span class="font-label-sm text-label-sm mt-0.5">Planner</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="map" href="#"><span class="material-symbols-outlined text-[22px]">map</span><span class="font-label-sm text-label-sm mt-0.5">Map</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="insights" href="#"><span class="material-symbols-outlined text-[22px]">monitoring</span><span class="font-label-sm text-label-sm mt-0.5">Insights</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="telemetry" href="#"><div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span><span class="material-symbols-outlined text-[22px]">sensors</span></div><span class="font-label-sm text-label-sm mt-0.5">Telemetry</span></a></div></nav></body></html>
