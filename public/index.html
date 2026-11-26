@@ -27,39 +27,35 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
       rel="stylesheet"
     />
-    <!-- Grafana Faro: frontend observability -->
+    <!-- Grafana Faro: frontend observability (self-hosted bundles, v2.15.0) -->
+    <script src="/vendor/faro/faro-web-sdk.iife.js"></script>
+    <script src="/vendor/faro/faro-web-tracing.iife.js"></script>
+    <script src="/vendor/faro/faro-instrumentation-replay.iife.js"></script>
     <script>
       (function () {
-        var s = document.createElement('script');
-        s.src = 'https://unpkg.com/@grafana/faro-web-sdk@^2.15.0/dist/bundle/faro-web-sdk.iife.js';
-        s.onload = function () {
-          window.GrafanaFaroWebSdk.initializeFaro({
+        try {
+          var sdk = window.GrafanaFaroWebSdk;
+          sdk.initializeFaro({
             url: 'https://faro-collector-prod-us-west-0.grafana.net/collect/3567efa2b8d20d5f3de68079fee89262',
             app: { name: 'CoastQuest Mombasa', version: '0.0.0', environment: 'production' },
+            instrumentations: [
+              ...sdk.getWebInstrumentations(),
+              new window.GrafanaFaroWebTracing.TracingInstrumentation(),
+              new window.GrafanaFaroInstrumentationReplay.ReplayInstrumentation({
+                maskAllInputs: false,
+                maskInputOptions: {
+                  password: true,
+                  email: true
+                },
+                maskTextSelector: '.grafana-mask',
+                blockSelector: '.grafana-block, input[type="hidden"]',
+                ignoreSelector: '.grafana-ignore'
+              })
+            ]
           });
-          var t = document.createElement('script');
-          t.src = 'https://unpkg.com/@grafana/faro-web-tracing@^2.15.0/dist/bundle/faro-web-tracing.iife.js';
-          t.onload = function () {
-            window.GrafanaFaroWebSdk.faro.instrumentations.add(new window.GrafanaFaroWebTracing.TracingInstrumentation());
-          };
-          document.head.appendChild(t);
-          var r = document.createElement('script');
-          r.src = 'https://unpkg.com/@grafana/faro-instrumentation-replay@^2.15.0/dist/bundle/faro-instrumentation-replay.iife.js';
-          r.onload = function () {
-            window.GrafanaFaroWebSdk.faro.instrumentations.add(new window.GrafanaFaroInstrumentationReplay.ReplayInstrumentation({
-              maskAllInputs: false,
-              maskInputOptions: {
-                password: true,
-                email: true
-              },
-              maskTextSelector: '.grafana-mask',
-              blockSelector: '.grafana-block, input[type="hidden"]',
-              ignoreSelector: '.grafana-ignore'
-            }));
-          };
-          document.head.appendChild(r);
-        };
-        document.head.appendChild(s);
+        } catch (e) {
+          console.warn('Faro failed to initialize', e);
+        }
       })();
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
