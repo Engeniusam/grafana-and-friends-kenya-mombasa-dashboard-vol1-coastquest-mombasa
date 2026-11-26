@@ -9,6 +9,34 @@
     <meta property="og:description" content="Discover Mombasa beaches, heritage sites, Swahili cuisine, wildlife sanctuaries, and curated coastal experiences." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+        <!-- Grafana Faro: frontend observability -->
+    <script src="https://unpkg.com/@grafana/faro-web-sdk@2.15.0/dist/bundle/faro-web-sdk.iife.js"></script>
+    <script src="https://unpkg.com/@grafana/faro-web-tracing@2.15.0/dist/bundle/faro-web-tracing.iife.js"></script>
+    <script src="https://unpkg.com/@grafana/faro-instrumentation-replay@2.15.0/dist/bundle/faro-instrumentation-replay.iife.js"></script>
+    <script>
+      (function () {
+        try {
+          var sdk = window.GrafanaFaroWebSdk;
+          sdk.initializeFaro({
+            url: 'https://faro-collector-prod-us-west-0.grafana.net/collect/3567efa2b8d20d5f3de68079fee89262',
+            app: { name: 'CoastQuest Mombasa', version: '0.0.0', environment: 'production' },
+            instrumentations: [
+              ...sdk.getWebInstrumentations(),
+              new window.GrafanaFaroWebTracing.TracingInstrumentation(),
+              new window.GrafanaFaroInstrumentationReplay.ReplayInstrumentation({
+                maskAllInputs: false,
+                maskInputOptions: { password: true, email: true },
+                maskTextSelector: '.grafana-mask',
+                blockSelector: '.grafana-block, input[type="hidden"]',
+                ignoreSelector: '.grafana-ignore'
+              })
+            ]
+          });
+        } catch (e) {
+          console.warn('Faro failed to initialize', e);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
